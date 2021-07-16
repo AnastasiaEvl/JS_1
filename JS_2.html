@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<img src="images/" id="pic">
+
+<script>
+
+    let n = prompt("Введите номер картинки");
+    let m = prompt("Введите расширение картинки", "jpg ИЛИ png");
+
+    if (n >= 1 && n <= 11 && m == 'png' || m == 'jpg') {
+        pic.src = `images/${n}.${m}`;
+    }else {
+        alert("Что-то не так")
+    }
+
+</script>
+</body>
+</html>

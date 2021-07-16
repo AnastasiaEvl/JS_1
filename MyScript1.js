@@ -1,0 +1,2 @@
+
+alert("Privet, vsem JS!");
